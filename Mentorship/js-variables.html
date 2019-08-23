@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Variables</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+//Declare a variable.
+var first;
+document.write("var 'first' Value = " + first);
+
+console.log("first = " + first);
+//Assigning value to variable.
+first = "some value";
+
+document.write("<BR>");
+document.write("first = " + first);
+
+document.write("<BR>");
+document.write("<BR>");
+//Declare a variable AND ASSIGN a value.
+var abc = "one";
+document.write("<BR> var Value = " + abc);
+
+document.write("<BR>");
+var abc = "REDEFINED";
+document.write("var re-declared valaue: " + abc);
+
+document.write("<BR><br>");
+let xyz = "FIRST";
+
+document.write("let value: " + xyz);
+//Change value of the variable 'xyz'.
+xyz = "second";
+xyz = true;
+xyz = 546456;
+document.write("<BR> let value: " + xyz);
+
+document.write("<BR><BR>");
+//Uncaught SyntaxError: Identifier 'xyz' has already been declared
+//let xyz = "again"; //RE-DECLARE variable xyz;
+//var xyz = "again";
+//document.write("let re-declared: " + xyz);
+
+const finalValue = "PERMANENT";
+//finalValue = "ABC";
+document.write("const value: " + finalValue);
+
+document.write("<BR><BR>");
+//Declaring a const WITHOUT a value is not permitted.
+//const end;
+//document.write("const value of end: " + end);
+
+</script>
+
+</body>
+</html>
